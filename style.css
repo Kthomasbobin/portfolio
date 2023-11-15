@@ -1,0 +1,54 @@
+*{
+    background-color:black;
+    color: white;
+}
+.name_h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menubar1{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    margin-top:25px ;
+}
+ul li{
+    display: inline-block;
+    padding: 8px 22px;
+    vertical-align: top;
+    color: black;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    margin-top: 500px;
+}
+.myimg{
+    border-radius: 15px;
+    height:250px;
+    width:225px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.links{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
